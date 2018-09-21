@@ -1,0 +1,9 @@
+---
+
+applications:
+ - name: spring-boot-hello-world-example
+   path: target/spring-boot-hello-world-example-0.0.1-SNAPSHOT.jar
+   random-route: true
+   domain: cfapps.io
+   memory: 1G
+   instances: 1
